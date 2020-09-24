@@ -1,0 +1,49 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {background-color: aqua;}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto ;
+    background-color: azure;
+}
+
+nav {
+    background-color: darkcyan;
+}
+
+
+nav a {} 
+
+a.menu {display: inline-block;
+ width: 25%;
+ padding: 15px 30px 15px 30px;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+}
+a.menu:hover {front-size: 20px;
+border-bottom: 10px solid red;
+}
+
+.active {background-color: crimson;
+}
+
+.article {margin-top: 30px;
+ margin-bottom: 20px;
+ padding: 0 20%;
+}
+
+article hl {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
